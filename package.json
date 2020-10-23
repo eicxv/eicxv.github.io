@@ -1,0 +1,37 @@
+{
+  "name": "github-pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gpgpu-flocking": "github:eicxv/gpgpu-flocking"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.0",
+    "gh-pages": "^3.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "path": "^0.12.7",
+    "raw-loader": "^4.0.2",
+    "source-map-loader": "^1.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "start": "webpack serve --open firefox.exe",
+    "build": "webpack",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eicxv/github-pages.git"
+  },
+  "author": "Einar Persson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eicxv/github-pages/issues"
+  },
+  "homepage": "https://github.com/eicxv/github-pages#readme"
+}
